@@ -1,0 +1,64 @@
+body {
+    background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', 'Noto Sans TC', sans-serif;
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+.card {
+    width: 320px;
+    height: 500px;
+}
+
+.card-header {
+    background-image: url(https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+.card-body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.search {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0 transparent;
+    border-bottom-width: 1.5px;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    padding: .25rem 1rem;
+    font-size: 1.2rem;
+}
+
+.list li:hover {
+    background-color: #F4F7FA;
+}
+
+.list label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.list input[type=checkbox] {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin-right: 1.5rem;
+}
